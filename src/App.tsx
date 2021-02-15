@@ -44,7 +44,7 @@ function App() {
         setValue(event.target.value);
       }}
       style={{
-        backgroundImage: `linear-gradient(to right, var(--strong-cyan) ${
+        backgroundImage: `linear-gradient(to right, var(--soft-cyan) ${
           Number(value) * 25
         }%, var(--light-grayish-blue-1) 0)`,
       }}
